@@ -1,0 +1,51 @@
+body{
+  background-color: rgba(187, 238, 187, 0.205);
+}
+
+.square {
+  width: 110px;
+  height: 110px;
+  border-style: solid;
+  border-color: rgb(8, 65, 0);
+}
+
+.grid {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.26);
+  border-radius: 0.5em;
+}
+
+.mole{
+  background-image: url('mole.jpg');
+  background-size: cover;
+
+}
+
+.placar{
+  margin: 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  color: rgba(52, 165, 42, 0.685);
+  text-align: center;
+}
+
+
+.placar > h1 {
+  margin: 0.3em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
+}
+
+.placar > h2 {
+  margin: 0.3em;
+}
+
+.placar > h3 {
+  margin: 0.2em;
+}
